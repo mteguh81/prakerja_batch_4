@@ -1,0 +1,5 @@
+Tugas Mandiri Sesi 3
+
+Soal Nomor 1: folder arraymerge
+Soal Nomor 2: folder totalsamestringslice
+Soal Nomor 3: folder oneoccurrence
