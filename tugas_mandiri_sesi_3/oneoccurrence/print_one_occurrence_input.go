@@ -13,7 +13,22 @@ func munculSekali(angka string) []int {
 		ary[i], _ = strconv.Atoi(strs[i])
 	}
 
-	return ary
+	dict := make(map[int]int)
+	for _, v := range ary {
+		//fmt.Println(v)
+		dict[v]++
+	}
+
+	res := make([]int, 0)
+	for key, element := range dict {
+		// fmt.Println("Key:", key, "=>", "Element:", element)
+
+		if element == 1 {
+			res = append(res, key)
+		}
+	}
+
+	return res
 }
 
 func main() {
